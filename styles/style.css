@@ -1,0 +1,138 @@
+/*
+display: flex;
+  display: -ms-flexbox; /* IE 10 
+  flex-wrap: wrap;
+  -ms-flex-wrap: wrap; /* IE 10 
+  padding: 0 2px; */
+
+
+* { margin: 0; padding: 0; }
+
+body, html {
+  height: 100%;
+  width: auto;
+
+  /* For body text */
+  font-family: 'Manrope', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+  color: #fff;
+}
+
+#bg-container {
+  height: 100%; 
+
+  /* The image used as background - Photo by Ioann Peshkov on Unsplash */
+  background-image: url("../images/ioann-peshkov-Eo0aGGY3PWI-unsplash.jpg");
+  opacity: 1; /* 1 */
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#caption {
+  width: 100%;
+  height: auto;
+  padding: 5% 0;
+  background: transparent;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  background: transparent;
+
+  height: 15%;
+  margin: 2px; /* v2 - try without margin -> one flex block */
+}
+
+.flex-container > .flex-item {
+  width: 15%;
+  height: 100%; /* from parent #flex-container with height 15% */
+  margin: 0 10px;
+  text-align: center;
+  background-color: whitesmoke;
+  opacity: 0.5;
+  font-size: 70px;
+}
+
+.flex-container > .flex-caption {
+  width: 15%;
+  height: 40%; /* from parent #flex-container with heigth 15% */
+  margin: 0 10px; 
+  text-align: center;
+  background-color: whitesmoke;
+  opacity: 0.5;
+  font-size: 20px;
+}
+
+#timeToDate, #todayIsDate {
+  margin: 70px 20px;
+  padding: 10px;
+}
+
+#currentDate {
+  font-size: 26px;
+}
+
+.text {
+  color: #000;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 300;
+  padding: 0 5%; /* for small devices only */
+}
+
+p {
+  padding: 5px;
+  font-size: 1.5em;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  max-height: 7%;
+  background-color: #fff;
+  opacity: 0.9;
+  color: #000;
+  font-size: 14px;
+  padding: 0.5% 0;
+}
+
+a:link {
+  text-decoration: none;
+  color: #105010;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #551a8b;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #105010;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+/* Responsive layout: Tablet 
+@media screen and (max-width: 768px) {} */
+
+/* Responsive layout: Smartphone 
+@media screen and (max-width: 320px) {} */

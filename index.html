@@ -1,23 +1,79 @@
 <!DOCTYPE HTML>
 <html> 
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {
-	text-align: center;
-}
-p {
-  font-size: 60px;
-  margin-top: 0px;
-}
-</style>
+  <meta charset="UTF-8">
+  <meta name="description" content="New Year 2021 Countdown">
+  <meta name="keywords" content="">
+  <meta name="author" content="Liliia Shashina">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>New Year 2021 Countdown</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheet -->
+  <link href="styles/style.css" rel="stylesheet">
 </head>
 <body>
-<h1>New Year 2021 Countdown</h1>
-<p id="countdownDate"></p>
-<p id="currentDate">-</p>
+  <!-- Fullpage Background Image container begin -->
+  <div id="bg-container">
 
-<script src="js/script.js"></script>
+    <!-- Caption div begin -->
+    <div id="caption">
+      <h1>New Year 2021 Countdown</h1>
+    </div><!-- End Caption div -->
 
+    <!-- Flex container to display numeric data begin -->
+    <div class="flex-container">
+      <div class="flex-item">
+        <p class="text" id="days"></p>
+      </div>
+      <div class="flex-item">
+        <p class="text" id="hours"></p>
+      </div>  
+      <div class="flex-item">
+        <p class="text" id="minutes"></p>
+      </div>
+      <div class="flex-item">
+        <p class="text" id="seconds"></p>
+      </div>
+    </div><!-- End Flex container to display numeric data -->
+
+    <!-- Flex container to display string data begin -->
+    <div class="flex-container">
+      <div class="flex-caption">
+        <p class="text" id="daysName">DAYS</p>
+      </div>
+      <div class="flex-caption">
+        <p class="text" id="hoursName">HOURS</p>
+      </div>  
+      <div class="flex-caption">
+        <p class="text" id="minutesName">MINUTES</p>
+      </div>
+      <div class="flex-caption">
+        <p class="text" id="secondsName">SECONDS</p>
+      </div>
+    </div><!-- End Flex container to display string data -->
+
+    <!-- for testing Countdown Date displays
+    <div id="timeToDate">
+      <p id="countdownDate">Countdown Date</p>
+    </div> -->
+
+    <!-- TodayIsDate div begin -->
+    <div id="todayIsDate">
+      <p id="currentDate">Current Date</p>
+    </div><!-- End TodayIsDate div -->
+
+    <!-- Footer div begin -->
+    <div id="footer">
+        <span>2020 &copy; <a href="mailto:liliia.shashina@gmail.com">Liliia Shashina</a></span>
+    </div><!-- End Footer div -->
+
+  </div><!-- End Fullpage Background Image container -->
+
+  <!-- Script displays numeric data in first flex container -->
+  <script type="text/javascript" src="scripts/script.js"></script>
 </body>
 </html>
