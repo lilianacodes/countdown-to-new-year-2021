@@ -1,2 +1,3 @@
-# New Year 2030 Countdown
-New Year 2030 Countdown using Vanilla JS
+# Countdown to New Year 2030
+Countdown to New Year 2030 using Vanilla JS
+Responsive design
