@@ -1,2 +1,2 @@
-# countdown-to-new-year-2021
-Countdown to New Year 2021 on Vanilla JS
+# New Year 2030 Countdown
+New Year 2030 Countdown using Vanilla JS
