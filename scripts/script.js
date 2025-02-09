@@ -1,5 +1,5 @@
 // Set the date we're counting down to
-var countDownDate = new Date("Jan 1, 2021 00:00:00").getTime();
+var countDownDate = new Date("Jan 1, 2030 00:00:00").getTime();
 
 // Add zero before one character number (0-9)
 function addZero(i) {
